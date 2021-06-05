@@ -4,10 +4,10 @@ import s from './main.module.css'
 export const Main = () => {
     return (
         <div className={s.main}>
-            <h5>Hello, my name is</h5>
-            <h1>Alexander Lapko</h1>
-            <h5>Front-end Developer based in #Minsk</h5>
 
+            <img
+                src="https://vatikam.s3.amazonaws.com/uploads/portfolio_module/image/3314/portfolio_ff93516659.jpg"
+                alt="nature"/>
         </div>
     );
 };
